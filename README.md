@@ -1,7 +1,7 @@
 # Password Complexity Checker
 
 ## Description
-This project is a Python-based Password Complexity Checker that evaluates the strength of passwords using security criteria such as length, uppercase letters, lowercase letters, numbers, and special characters. It helps users identify weak passwords and improve password security.
+This project is a Java-based Password Complexity Checker that evaluates the strength of passwords using security criteria such as length, uppercase letters, lowercase letters, numbers, and special characters. It helps users identify weak passwords and improve password security.
 
 ## Features
 - Checks password strength
@@ -10,16 +10,21 @@ This project is a Python-based Password Complexity Checker that evaluates the st
 - Displays Weak, Medium, or Strong password status
 
 ## Technologies Used
-- Python
-- Regular Expressions (re module)
+- Java
 
 ## How to Run
-1. Save the file as `password_checker.py`
+1. Save the file as `PasswordChecker.java`
 2. Open terminal or command prompt
-3. Run the program using:
+3. Compile the program using:
 
 ```bash
-python password_checker.py
+javac PasswordChecker.java
+```
+
+4. Run the program using:
+
+```bash
+java PasswordChecker
 ```
 
 ## Example
@@ -33,3 +38,4 @@ Output:
 ```text
 Strong Password
 ```
+
